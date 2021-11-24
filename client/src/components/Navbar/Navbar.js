@@ -15,7 +15,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <Link className="navbar-brand" to="/">
-        ZTrĂk
+        DJ SLEEP TRACKER
       </Link>
       <div>
         <ul className="navbar-nav">

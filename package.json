@@ -1,27 +1,22 @@
 {
-  "name": "project3",
+  "name": "miniproject",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
-    "start:prod": "node server.js",
-    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
-    "client": "cd client && npm run start",
-    "install": "cd client && npm install",
-    "build": "cd client && npm run build"
+    "server": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kennyqng/project3.git"
+    "url": "git+https://github.com/premgoud/miniproject.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kennyqng/project3/issues"
+    "url": "https://github.com/premgoud/miniproject/issues"
   },
-  "homepage": "https://github.com/kennyqng/project3#readme",
+  "homepage": "https://github.com/premgoud/miniproject#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "bootstrap": "^4.5.1",

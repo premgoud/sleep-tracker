@@ -1,5 +1,5 @@
 {
-  "name": "project3",
+  "name": "miniproject",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001",
@@ -21,10 +21,7 @@
     "styled-components": "^5.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-scripts start"
   },
   "eslintConfig": {
     "extends": "react-app"
